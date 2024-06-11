@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vivek Palaparthy | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script>
+        window.addEventListener('scroll', function() {
+            var sections = document.querySelectorAll('section.fade-in');
+        
+            sections.forEach(function(section) {
+                var rect = section.getBoundingClientRect();
+                var scrollPosition = window.innerHeight - rect.top;
+        
+                if (scrollPosition > 0) {
+                    section.classList.add('show');
+                } else {
+                    section.classList.remove('show');
+                }
+            });
+        });
+        
+        
+        
+    </script>
+    <script>
+        (function(){
+            emailjs.init("YOUR_USER_ID");
+        })();
+    </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile">
+                <img src="static/PALAPARTHY VIVEK no frame.jpg" alt="Vivek Palaparthy">
+                <h1>Vivek Palaparthy</h1>
+                <p>Undergraduate Student</p>
+            </div>
+            <div class="contact-info">
+                <ul>
+                    <li><i class="fas fa-map-signs"></i> Vizag, INDIA</li>
+                    <li><i class="fas fa-mobile-alt"></i> +91 7331182388</li>
+                    <li><i class="fas fa-envelope"></i> vivekpalaparthy12@gmail.com</li>
+                    <li><i class="fab fa-weebly"></i> Currently Building</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+    <section class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Third-year Computer Science student at Anil Neerukonda Institute of Technology and Sciences, Visakhapatnam. Strong in problem-solving, teamwork, and adaptability. Seeking an internship to develop skills. Enthusiastic and hardworking.</p>
+        </div>
+    </section>
+    
+    <section class="skills">
+        <div class="container">
+            <div class="skill-box">
+                <span class="title">HTML</span>
+                <div class="skill-bar">
+                    <span class="skill-per html">
+                        <span class="tooltip">90%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">CSS</span>
+                <div class="skill-bar">
+                    <span class="skill-per css">
+                        <span class="tooltip">70%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">JavaScript</span>
+                <div class="skill-bar">
+                    <span class="skill-per javascript">
+                        <span class="tooltip">50%</span>
+                    </span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <span class="title">NodeJS</span>
+                <div class="skill-bar">
+                    <span class="skill-per nodejs">
+                        <span class="tooltip">30%</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="experience fade-in">
+        <div class="container">
+            <h2>Courses and Internships</h2>
+            <ul>
+                <li>
+                    <span class="date">2023</span>
+                    <div class="info">
+                        <h3>Python Essentials-1</h3>
+                        <p>"Python Essentials-1" from Cisco Networking Academy is a foundational course providing essential Python programming skills. It covers fundamental concepts and syntax, preparing students for more advanced Python development.</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="date">2024</span>
+                    <div class="info">
+                        <h3>Web development</h3>
+                        <p>"Web Development" at Afame Technologies offers comprehensive training in front-end and back-end development, including HTML, CSS, JavaScript.I gained practical experience in building responsive websites and web applications, equipping them with skills for modern web development.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="education fade-in">
+        <div class="container">
+            <h2>Education</h2>
+            <ul>
+                <li>
+                    <span class="date">2021-2025 (expected)</span>
+                    <div class="info">
+                        <h3>Anil Neerukonda Institute of Technology and Sciences</h3>
+                        <p>Bachelor in Computer Science and Technology</p>
+                    </div>
+                </li>
+                <li>
+                    <span class="date">2019-2021</span>
+                    <div class="info">
+                        <h3>Tirumala Junior College</h3>
+                        <p>Intermediate-MPC</p>
+                    </div>
+                </li>     
+            </ul>
+        </div>
+    </section>
+    
+    <section class="hobbies fade-in">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Playing Cricket</li>
+                <li>Reading Books</li>
+                <li>Browsing Internet</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="links fade-in">
+        <div class="container">
+            <h2>Links</h2>
+            <ul>
+                <li><i class="fab fa-facebook-square"></i> Facebook: vivekpalaparthy</li>
+                <li><i class="fab fa-twitter-square"></i> X: @palaparthyvivek</li>
+                <li><i class="fab fa-linkedin"></i> LinkedIn: @palaparthyvivek</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact fade-in">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <ul>
+                <li><a href="mailto:vivekpalaparthy12@gmail.com">vivekpalaparthy12@gmail.com</a></li>
+                <li align="center">Phone: +91 7331182388</li>
+            </ul>
+        </div>
+    </section>
+    
+    <section class="projects fade-in">
+        <div class="container">
+            <h3>Projects:</h3>
+            <div class="project">
+                <h3>Basic college website</h3>
+                <img src="static/Screenshot 2024-01-23 204156.png">
+                <p>A basic college website built with HTML, CSS, and JavaScript provides essential features such as timetables, student information, and college data. Students can easily access their schedules, academic records, and personal profiles through a secure login system. The site also offers detailed information about the college, its departments, and faculty. Interactive and visually appealing, this platform ensures a seamless user experience for both students and staff.</p>
+            </div>
+            <div class="project">
+                <h3>Moodle 2.0</h3>
+                <img src="static/WhatsApp Image 2024-03-30 at 18.01.17_b9b33309.jpg">
+                <p>Moodle 2.0 is a robust and dynamic learning management system (LMS) designed to facilitate seamless interaction between students and teachers. Built using modern web technologies including MongoDB, Node.js, and Express.js, Moodle 2.0 offers an enhanced, scalable, and efficient platform for educational environments.</p>
+            </div>
+
+        </div>
+    </section>
+    
+    <section class="resume fade-in">
+        <div class="container">
+            <h2>Resume</h2>
+            <a href="static/PALAPARTHY VIVEK RESUME.pdf" download>Download Resume</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy;Vivek Palaparthy.All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
